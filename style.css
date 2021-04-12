@@ -1,37 +1,43 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 100%;
-  }
-  
-  body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url('https://images.unsplash.com/photo-1545579133-99bb5ab189bd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8aXNsYW5kfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80') no-repeat center center fixed;
-    background-size: cover;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 50px;
-    color: #fff;
-    text-shadow: 3px 3px 8px rgb(21 50 45);
-  }
-  
-  .text-one {
-    width: 100%;
-    margin: 0 auto;
-    font-size: 50px;
-    line-height: 5rem;
-    text-align: center;
-    font-family: 'Julius Sans One', sans-serif;
-  }
-  .text-two {
-    width: 100%;
-    margin: 0 auto;
-    font-size: 20px;
-    font-family:'Julius Sans One', sans-serif;
-    text-align: center;
-    padding: 60px;
-    text-shadow: 3px 3px 8px rgb(21 50 45);
-  }
+body {
+  background-image: url("assets/freedom.jpg");
+  background-repeat: no-repeat;
+  background-size: 200%;
+  height: 100vh;
+  color: #333;
+  line-height: 1.5;
+  font: size 3rem;
+} 
+
+
+img {
+  width: 30px;
+  height: auto;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.one-text {
+  font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.5rem;
+}
+
+.two-text {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+footer {
+  font-size: 1rem;
+  margin-top: 5rem;
+  margin: 7rem auto;
+  font-weight: bold;
+  display: block;
+}
